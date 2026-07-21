@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.read-the-docs {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #888;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
