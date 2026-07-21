@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Search, MoreVertical, Edit2, UserX, CheckCircle, Trash2 } from 'lucide-react';
 import { mockUsers } from '../../mockData';
 
-const UserTable = () => {
+const UserTablePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [users, setUsers] = useState(mockUsers);
   const [activeMenuId, setActiveMenuId] = useState(null);
@@ -158,4 +158,4 @@ const UserTable = () => {
   );
 };
 
-export default UserTable;
+export default UserTablePage;

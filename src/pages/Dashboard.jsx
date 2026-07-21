@@ -3,7 +3,7 @@ import Header from '../components/Layout/Header';
 import Sidebar from '../components/Layout/Sidebar';
 import StatsCards from '../components/Stats/StatsCards';
 import { Shield } from 'lucide-react';
-import UserTable from '../components/Users/UserTable';
+import UserTablePage from '../components/Users/UsertablePage';
 import ImovelTable from '../components/Imoveis/ImovelTable';
 import NotificationTable from '../components/Notifications/NotificationTable';
 
@@ -25,7 +25,7 @@ const Dashboard = () => {
   const renderMainContent = () => {
     switch (activeComponent) {
       case 'UsersManager':
-        return <UserTable />;
+        return <UserTablePage />;
       case 'ImovelManager':
         return <ImovelTable />;
       case 'NotificationManager':
